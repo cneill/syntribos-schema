@@ -30,20 +30,20 @@
 
 ```json
 {
-    "testsuites": [
+    "testsuites": {
         "{TARGET}|{ENDPOINT}|{TEST_TYPE}": {
             "{METHOD} - {ACTION_PARAM_TYPE}|{ACTION_PARAM}": {
                 "failures": [
                     {
                         "description": "{DESCRIPTION}",
-                        "payloads": [ {FAILED PAYLOAD}, ... ]
+                        "payloads": [ "{FAILED PAYLOAD}", ... ]
                     }
                 ],
                 "errors": [...],
                 "successes": [...]
             }
         }
-    ]
+    } 
 }
 ```
 
