@@ -28,6 +28,7 @@
 
 ## JSON Example
 
+```json
 {
     "testsuites": [
         "{TARGET}|{ENDPOINT}|{TEST_TYPE}": {
@@ -35,7 +36,7 @@
                 "failures": [
                     {
                         "description": "{DESCRIPTION}",
-                        "payloads": [ {LIST OF FAILED PAYLOADS} ]
+                        "payloads": [ {FAILED PAYLOAD}, ... ]
                     }
                 ],
                 "errors": [...],
@@ -44,6 +45,7 @@
         }
     ]
 }
+```
 
 ### Target / Host
 
