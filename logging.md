@@ -22,4 +22,6 @@ output formatting, naming, verbosity, etc.)
       `syntribos poc SQL_HEADER_PAYLOAD_1_TARGET_1_ENDPOINT_1` or similar, and
       it would make that exact request again, and allow you to save more details
       (like what our debug log does today for ALL requests)
+0. Can there be a options for changing the severity of tests, from testing for critical issues to low/detailed, or some way in which the user get realtime status of tests? 
+0. Is there any thoughts on giving the test results in yaml as well, so its is in a way both machine readable as well as more verbose than json.? 
 
