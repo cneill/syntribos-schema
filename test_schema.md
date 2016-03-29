@@ -45,7 +45,8 @@ This is a place for us to discuss the schema of a Syntribos "Test Suite" /
                     }
                 ],
                 "errors": [...],
-                "successes": [...]
+                "successes": [...],
+                "skipped": [...]
             }
         }
     } 
