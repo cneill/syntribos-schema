@@ -9,29 +9,29 @@ This is a place for us to discuss the schema of a Syntribos "Test Suite" /
 
 __Finding__
 
-- Target
-- Endpoint
-- Defect Type
-- Test Type
-- Impacted Parameter
+- [Target](#target)
+- [Endpoint](#endpoint)
+- [Defect Type](#defect-type)
+- [Test Type](#test-type)
+- [Impacted Parameter](#impacted-parameter)
     - HTTP Method
     - Location
     - Name
     - Value
     - Payload Type
-- Description
-- Recommendation / Remediation
-- CWE
-- Reference ID
+- [Description](#description)
+- [Remediation](#remediation)
+- [CWE](#CWE)
+- [Reference ID](#reference-id)
 - Request/Response (?)
     - *ccneill:* need to decide if we really want/need this
-- Severity
-- Confidence
-- Impact
+- [Severity](#severity)
+- [Confidence](#confidence)
+- [Impact](#impact)
 
 __Input parameter__
 
-### Target / Host
+### Target
 
 A hostname/IP/etc. to be tested. This is also tied to a set of request
 templates by the way syntribos collects these templates (from a single folder
