@@ -21,7 +21,7 @@ __Finding__
     - Payload Type
 - [Description](#description)
 - [Remediation](#remediation)
-- [CWE](#CWE)
+- [CWE](#cwe)
 - [Reference ID](#reference-id)
 - Request/Response (?)
     - *ccneill:* need to decide if we really want/need this
